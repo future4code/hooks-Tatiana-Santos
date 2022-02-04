@@ -1,0 +1,11 @@
+
+ 1- Macarrão
+ 2- Lasanha
+ 3- Pizza
+ 4- Lanches
+ 5- Strogonof
+ 6- Saladas 
+ 7- Camarão
+ 8- Sorvetes
+ 9- Açai
+ 10- Japonesa 
