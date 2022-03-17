@@ -97,17 +97,35 @@ function retornaSegundoMaiorESegundoMenor(array) {
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   
+   return `Venha assitir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores}.`
+
 }
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
-   
+
+const pessoa1 = {
+
+	nome: "Astrodev",
+	idade: 25,
+	email: "astrodev@labenu.com.br",
+	endereco: "Rua do Futuro, 4"
+}
+const pessoa2 = {
+    ... pessoa,
+    nome:"ANÔNIMO"
+}
+
+return pessoa2
+
 }
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
    
+
+
+    
 }
 
 // EXERCÍCIO 13B
