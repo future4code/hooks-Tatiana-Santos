@@ -42,30 +42,29 @@ function retornaNumerosParesElevadosADois(array) {
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-  
+  return Math.max(...array)
 }
 
-
 // EXERCÍCIO 07
-function retornaObjetoEntreDoisNumeros(num1, num2) {
+function retornaObjetoEntreDoisNumeros(num1, num2){
     let maiorNumero
     let menorNumero 
+    let maiorDiviselPorMenor
     
     if (num1 > num2){
-        maiorNumero = num1;
-        menorNumero = num2;
+        maiorNumero = num1
+        menorNumero = num2
     }else{
-        maiorNumero = num2;
-        menorNumero= num1;
+        maiorNumero = num2
+        menorNumero= num1
     }
-    maiorDiviselMenor = maiorNumero % menorNumero === 0
-    const diferencaNumeros = maiorNumero - menorNumero
-    return{
+    let diferenca = maiorNumero - menorNumero
+    maiorDiviselPorMenor = maiorNumero % menorNumero === 0
+    return {
         maiorNumero: maiorNumero,
-        maiorDiviselPorMenor: maiorDiviselMenor,
-        diferenca: diferencaNumeros
-    }
-    
+        maiorDiviselPorMenor: maiorDiviselPorMenor,
+        diferenca: diferenca
+    }  
 }
 
 // EXERCÍCIO 08
