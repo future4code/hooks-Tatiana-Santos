@@ -46,26 +46,29 @@ function retornaMaiorNumero(array) {
 }
 
 // EXERCÍCIO 07
-function retornaObjetoEntreDoisNumeros(num1, num2){
-    let maiorNumero
-    let menorNumero 
-    let maiorDiviselPorMenor
-    
-    if (num1 > num2){
+function retornaObjetoEntreDoisNumeros(num1, num2) {
+    let maiorNumero = num1
+    let menorNumero = num2
+
+    if (num1 > num2 ) {
         maiorNumero = num1
-        menorNumero = num2
-    }else{
+        menorNumero = num2 
+
+    } else {
         maiorNumero = num2
-        menorNumero= num1
+        menorNumero = num1
     }
-    let diferenca = maiorNumero - menorNumero
-    maiorDiviselPorMenor = maiorNumero % menorNumero === 0
+
+    const maiorDiviselPorMenor = maiorNumero % menorNumero === 0
+    const diferenca = maiorNumero - menorNumero
+
     return {
         maiorNumero: maiorNumero,
-        maiorDiviselPorMenor: maiorDiviselPorMenor,
+        maiorDiviselPorMenor: divisel,
         diferenca: diferenca
-    }  
+    }
 }
+
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
@@ -92,14 +95,17 @@ if (ladoA == ladoB && ladoB == ladoC && ladoC == ladoA){
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
+
+
   
 }
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   return `Venha assitir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores}.`
+   return `Venha assitir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores[0]}, ${filme.atores[1]}, ${filme.atores[2]}, ${filme.atores[3]}.`
 
 }
+
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
@@ -122,16 +128,24 @@ return pessoa2
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
+    let altura = 1.5
+    let idadeMinima = 14
+    let idadeMaxima = 60
    
-
-
+    let retornaPessoasAutorizadas = pessoas.filter((item) => {
+       return !(item.altura < altura || item.idade <= idadeMinima || item.idade > idadeMaxima)
     
+return retornaPessoasAutorizadas
+
 }
+
 
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
-  
+
 }
+  
+
 
 // EXERCÍCIO 14
 function retornaContasComSaldoAtualizado(contas) {
