@@ -95,9 +95,20 @@ if (ladoA == ladoB && ladoB == ladoC && ladoC == ladoA){
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
+ let maiorEmenor = [];
+ let ordemCrescente = array.sort((a, b) => {
+     if ( a > b) return 1;
+     if ( a < b) return -1;
 
+      return 0;
 
+ })
   
+ maiorEmenor.push(ordemCrescente[ordemCrescente.length - 2])
+ maiorEmenor.push(ordemCrescente[1])
+
+ return maiorEmenor;
+ 
 }
 
 // EXERCÍCIO 11
