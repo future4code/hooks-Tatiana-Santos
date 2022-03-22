@@ -1,0 +1,27 @@
+Exercícios de fixação do conhecimento
+
+Faça um resumo sobre quais são os 7 passos fundamentais para a resolução de problemas e como eles podem nos ajudar a solucionar nossos desafios de programação.
+
+Os sete passos fundamentais são:
+
+-Prestar atenção no encunciado; onde consiste ler de uma maneira clara o que realmente são as caracteristicas principais que o texto pede.
+
+-Retirar informações que são relevantes; essas informações irão dar um processo de leitura do código, aqui você consegue indentificar uma possibilidade de cógido.
+
+-Pensar nas maneiras de entradas e saídas; pensar em qual maneira começar e o que você pretende no final. 
+
+-Fazer uma esquematização visual; com ajuda de um fluxograma, papel ou desenho aqui você irá ver como o sua lógica deve ser implantada. 
+
+-Criar código feio; fazer ele primeiro da uma forma que entenda, depois ir aprimorando para uma outra lógica.
+
+-Testar a força-bruta; pensar de modos diferentes como pode ser feito.
+
+-Refatorar; fazer um código com uma leitura que você se ache depois, como dar nomes bons para as variavéis e colocar cada elemento no seu lugar. 
+
+
+
+
+
+
+
+
