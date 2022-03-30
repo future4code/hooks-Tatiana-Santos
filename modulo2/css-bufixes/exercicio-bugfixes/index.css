@@ -59,7 +59,6 @@ div img {
     width: 30px;
     height: 15px;
     background: none;
-
 }
 
 
@@ -118,6 +117,12 @@ td button {
 .container-do-search {
     margin-top: 20px;
     height: 100px;
+}
+
+.container-do-search input {
+  border: 0;
+  border-bottom: 1px solid #000;
+  outline: 0;
 }
 
 
