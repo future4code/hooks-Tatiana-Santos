@@ -56,7 +56,10 @@ div img {
 }
 
 .icone {
+    width: 30px;
     height: 15px;
+    background: none;
+
 }
 
 
