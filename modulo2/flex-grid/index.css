@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: mediumvioletred;
+}
+
+img {
+    width: 100px;
+    margin-right: 5px;
+}
+
+main {
+    display: grid;
+    flex-direction: column;
+  
+
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+    background-color: mediumvioletred;
+}
+
